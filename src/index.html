@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title row">
+        <div class="col-md-2">
+            <a href="index.html">
+            <img src="images/udacity.svg" class="title-logo img-responsive" alt="Udacity Logo">
+            </a>
+        </div>
+        <div class="title-text col-md-10 text-uppercase text-right">
+          <h1 class="title-super text-thin">David Lee</h1>
+          <h4>Full-Stack Ninja</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/css-code-1140x500.jpg"
+          sizes="(max-width: 453px) 100vw, (min-width: 454px) 100vw" 
+          srcset="images/css-code-570x250.jpg 570w, images/css-code-1140x500.jpg 1140w" 
+          class="img-responsive" alt="Portfolio">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class= "text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div>
+            <img src="images/movies-555x350.jpg" 
+            sizes="(max-width: 453px) 33vw, (min-width: 454px) 33vw"
+            srcset="images/movies-277x175.jpg 277w, images/movies-555x350.jpg 555w"
+            class="img-responsive" alt="Movies" data-toggle="modal" data-target="#modalMovies">
+          </div>
+          <div title-app>
+            <h3 class="text-uppercase">Movies</h3>
+          </div>
+          <div class="url-app">
+            <p><a href="https://github.com/dlee325/movie-page">https://github.com/dlee325/movie-page</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <img src="images/tournament-555x350.jpg" 
+            sizes="(max-width: 453px) 33vw, (min-width: 454px) 33vw"
+            srcset="images/tournament-277x175.jpg 277w, images/tournament-555x350.jpg 555w" 
+            class="img-responsive" alt="Tourament" data-toggle="modal" data-target="#modalTournament">
+          </div>
+          <div title-app>
+            <h3 class="text-uppercase">Tournament</h3>
+          </div>
+          <div class="url-app">
+            <p><a href="https://github.com/dlee325/tournament">https://github.com/dlee325/tournament</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+             <img src="images/mad-libs-550x350.jpg"
+             sizes="(max-width: 453px) 33vw, (min-width: 454px) 33vw"
+             srcset="images/mad-libs-277x175.jpg 277w, images/mad-libs-550x350.jpg 555w"
+             class="img-responsive" alt="Mad Libs Generator" data-toggle="modal" data-target="#modalMadLibs">
+          </div>
+          <div title-app>
+            <h3 class="text-uppercase">Mad Libs Generator</h3>
+          </div>
+          <div class="url-app">
+            <p><a href="https://github.com/dlee325/mad-libs-generator">https://github.com/dlee325/mad-libs-generator</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Modal -->
+    <div class="modal fade" id="modalMovies" tabindex="-1" role="dialog" aria-labelledby="ModalLabelMovies" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="ModalLabelMovies">Favorite Movies Webpage</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/movies-555x350.jpg" 
+                    sizes="(max-width: 453px) 100vw, (min-width: 454px) 100vw"
+                    srcset="images/movies-277x175.jpg 277w, images/movies-555x350.jpg 555w"
+                    class="img-responsive" alt="Movies">
+                    <p>Using what I learned on relational databases and Python, I stored data for my favorite movies webpage.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Modal -->
+    <div class="modal fade" id="modalTournament" tabindex="-1" role="dialog" aria-labelledby="ModalLabelTournament" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="ModalLabelTournament">Swiss-Style Tournament App</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/tournament-555x350.jpg" 
+                    sizes="(max-width: 453px) 100vw, (min-width: 454px) 100vw"
+                    srcset="images/tournament-277x175.jpg 277w, images/tournament-555x350.jpg 555w"
+                    class="img-responsive" alt="Tournament">
+                    <p>This was my first attempt at setting up a database ready for use. I created a swiss-style tournament planner. 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Modal -->
+    <div class="modal fade" id="modalMadLibs" tabindex="-1" role="dialog" aria-labelledby="ModalLabelMadLibs" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="ModalLabelMadLibs">Mad Libs Generator</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/mad-libs-550x350.jpg"
+                    sizes="(max-width: 453px) 100vw, (min-width: 454px) 100vw"
+                    srcset="images/mad-libs-277x175.jpg 277w, images/mad-libs-550x350.jpg 555w"
+                    class="img-responsive" alt="Mad Libs Generator">
+                    <p>I created a short mad libs game to test my abilities with basic Python.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

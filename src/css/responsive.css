@@ -1,0 +1,56 @@
+@media screen and (max-width: 453px) {
+    .title {
+    	display: flex;
+  		flex-wrap: wrap;
+  		font-size: .5em;
+  	}
+  	.title-text {
+  		width: 60%;
+  		margin: 0 5px 0 auto;
+  	}
+  	.title-super {
+  		padding-top: 10px;
+  		font-size: 5em;
+  	}
+    .title-logo {
+    	float: left;
+    	width: 80%;
+    }
+    hr {
+    	border-width: .25em;
+    }
+    .text-muted{
+    	font-size: 1.5em;
+    }
+    .title-app {
+    	font-size: 2em;
+    	margin-top: 10px;
+    }
+    .url-app {
+    	font-size: .75em;
+    	margin: 16px;
+    }
+    h3 {
+    	margin: 5px;
+    }
+    .text-center a {
+    	padding: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.title {
+    	display: flex;
+  		flex-wrap: wrap;
+  	}
+  	.title-text {
+  		width: 60%;
+  		margin: 0 5px 0 auto;
+  	}
+
+}
+
+@media screen and (max-width: 558px) and (min-width: 454px) {
+	.title-super {
+		font-size: 3em;
+	}

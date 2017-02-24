@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "grunt udacity portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlee325/portfolio.git"
+  },
+  "keywords": [
+    "grunt",
+    "udacity",
+    "portfolio"
+  ],
+  "author": "dlee325",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlee325/portfolio/issues"
+  },
+  "homepage": "https://github.com/dlee325/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
